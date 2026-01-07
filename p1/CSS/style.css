@@ -1,0 +1,31 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.logincontainer{
+    background-color: blueviolet;
+    display: flex;
+    width: 500px;
+    height: 400px;
+    align-items: center;
+    flex-direction: column;
+
+}
+.logintitle{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding-top: 20px;
+}
+.input{
+    margin-top: 50px;
+}
+.loginbutton{
+    margin-top: 20px;
+}
