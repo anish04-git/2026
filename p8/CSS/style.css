@@ -1,0 +1,113 @@
+html body {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+}
+
+.Header {
+    background-color: rgb(109, 194, 194);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+
+    .HeaderTitle{
+        background-color: blueviolet;
+        margin: 20px;
+        padding: 30px;
+
+    }
+
+}
+
+.HeaderRightBar {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 80%;
+    margin: 10px;
+    background-color: rgb(114, 114, 46);
+
+}
+
+.HeaderRightBtn {
+    background-color: brown;
+    display: flex;
+    flex-direction:column-reverse ;
+    width: 100px;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 3cm;
+}
+.Container{
+    background-color: rgb(224, 75, 30);
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    height: 100%;
+}
+
+
+.SiderItem{
+    background-color: rgb(49, 110, 164);
+    margin: 10px;
+    padding: 20px;
+}
+.SiderBottom{
+    background-color: bisque;
+    margin: 20px;
+    height: 200px;
+    display: flex;
+    flex-direction: column-reverse;
+    padding-bottom: 40px;
+}
+.SiderBottomItem{
+    background-color: blue;
+    padding: 10px 1px;
+}
+.RightContainer {
+    background-color: rgb(221, 19, 154);
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    width: 100%;       
+    height: auto;
+    margin: 0 auto;
+}
+
+
+.RightContainerItem{
+    width: 250px;
+    height: 150px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: brown;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.RightContainerImg{
+    background-color: aliceblue;
+    padding: 30px;
+    margin: 20px;
+}
+.RightContainerText{
+    background-color: blueviolet;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 10px;
+    width: 100px;
+}
+.CardTitle{
+    background-color: rgb(210, 210, 29);
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
